@@ -1,7 +1,8 @@
 -- If you're using a container database, connect to your PDB and schema when running this.
 -- If you're not using a container database, then just connect to your schema.
 
-define numrows=10000000
+--define numrows=10000000
+define numrows=6000000
 drop table big_table purge;
 
 create table big_table
